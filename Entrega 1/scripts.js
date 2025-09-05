@@ -98,6 +98,11 @@ let showStudentList = function(){
     return student();
 }
 
+//quitar un estudiante de la lista
+let removeStudent = function(){
+    
+}
+
 const student = schoolDB();
 console.log(student('Rodrigo','Math', 5));
 console.log(student('Mariana', 'Biology', 7));
